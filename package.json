@@ -1,0 +1,24 @@
+{
+  "name": "init-apollo-server-2",
+  "version": "1.0.0",
+  "description": "Exemplo de projeto usando o GraphQL com o Apollo Server 2",
+  "repository": "https://github.com/ileonardo-c/init-apollo-server-2",
+  "author": "Leonardo C. Carvalho <i.leonardo.c.c@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --exec node -r dotenv/config -r @babel/register src/app.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.3.1",
+    "dotenv": "^6.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "babel-plugin-import-graphql": "^2.6.2",
+    "graphql": "^14.0.2",
+    "nodemon": "^1.18.9"
+  }
+}

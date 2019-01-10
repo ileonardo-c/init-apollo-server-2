@@ -1,0 +1,5 @@
+#import './Hello.gql'
+
+type Query {
+  hello: [Hello]
+}
