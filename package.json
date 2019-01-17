@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "nodemon --exec node -r dotenv/config -r @babel/register src/app.js"
+    "start": "node -r dotenv/config -r @babel/register src/app.js",
+    "serve": "nodemon --exec node -r dotenv/config -r @babel/register src/app.js"
   },
   "dependencies": {
     "apollo-server": "^2.3.1",
